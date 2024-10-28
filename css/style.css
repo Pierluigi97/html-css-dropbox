@@ -138,3 +138,306 @@ li{
     text-decoration: none;
     color: black;
 }
+
+/**** MAIN ****/
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+section{
+    margin: 250px 0;
+}
+
+/***** Trova il piano business che fa per te *****/
+.piani{
+    padding-bottom: 50px;
+}
+
+.piani h2{
+    padding-bottom: 60px;
+    font-size: 40px;
+}
+.piani span{
+    padding-left: 5px;
+}
+.pallini input{
+    display: none;
+}
+.pallini label{
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+}
+.pallini label::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: #0061ff;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin: -5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pallini label::after{
+    content: "";
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    left: 10px;
+    top: 10px;
+    margin: -5px 0px;
+    margin-left: -1px;
+    opacity: 0;
+}
+.pallini input[type="radio"]:checked + label::after{
+    opacity: 1;
+}
+.row{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: calc(100% / 3);
+    padding-top: 90px;
+}
+.card-piani{
+    border: 0.5px solid darkgrey;
+    width: 277px;
+}
+.card-piani .titolo{
+    font-size: 13px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid darkgrey;
+}
+.card-piani .titolo p{
+    padding-left: 5px;
+    font-size: 13px;
+}
+.article{
+    padding: 30px;
+}
+.article h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: system-ui;
+}
+.article span{
+    font-weight: bold;
+    font-size: 13px;
+}
+.article p{
+    padding-top: 10px;
+    font-size: 13px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+.article ul{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.article ul li{
+    padding-bottom: 14px;
+    font-size: 13px;
+    font-family: system-ui;
+    line-height: 20px;
+    display: flex;
+    align-items: baseline;
+}
+.article i{
+    padding-right: 5px;
+    font-size: 13px;
+}
+.article .btn{
+
+}
+.article .btn button{
+    background-color: #0061ff;
+    width: 210px;
+    height: 35px;
+    border: 1px solid #0061ff;
+}
+.article .btn button a{
+    font-size: 12px;
+}
+.article-2 .oppure{
+    display: ruby;
+}
+.article-2 .oppure p{
+    padding-bottom: 30px;
+    padding-top: 25px;
+    color: black;
+    font-size: 13px;
+    border-bottom: 0.5px solid lightgray;
+}
+.article-2 .oppure a{
+    color: blue;
+    font-size: 13px;
+}
+.article-2 h5{
+    padding-top: 30px;
+}
+.article-2 i{
+    padding-right: 5px;
+    font-size: 14px;
+    color: #0061ff;
+}
+
+.team{
+    margin-top: 40px;
+    border: 0.5px solid darkgrey;
+}
+.team .titolo{
+    font-size: 13px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid darkgrey;
+}
+.row-team{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.didascalia{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.didascalia h3{
+    font-size: 25px;
+    font-family: system-ui;
+}
+.didascalia p{
+    font-size: 12px;
+    padding-top: 20px;
+}
+.didascalia span{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-family: system-ui;
+}
+
+.btn-team button{
+    background-color: #0061ff;
+    width: 210px;
+    height: 35px;
+    border: 1px solid #0061ff;
+
+}
+.btn-team button a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+/***** / Trova il piano business che fa per te *****/
+
+
+/***** Entra in contatto con un partner Dropbox *****/
+
+.container{
+    display: flex;
+}
+.col-image{
+    max-width: 60%;
+}
+.col-text{
+    max-width: 40%;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 40px;
+}
+.col-text h2{
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+.col-text p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-right: 19px;
+    line-height: 20px;
+
+}
+.btn-partner{
+    padding-top: 25px;
+}
+.btn-partner button{
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.btn-partner button a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+/***** / Entra in contatto con un partner Dropbox *****/
+
+
+
+/***** Esegui più operazioni con Dropbox Business *****/
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid h2{
+    font-size: 37px;
+    font-family: system-ui;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.card{
+    width: calc(100% / 3);
+    padding-top: 50px;
+}
+.image img{
+    width: 90%;
+}
+.text p{
+    font-size: 14px;
+    padding-right: 35px;
+}
+.text h4{
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: system-ui;
+}
+
+/***** / Esegui più operazioni con Dropbox Business *****/
+
+
+/***** Più di 500.000 team utilizzano Dropbox Business *****/
+
+.clienti{
+    margin-bottom: -100px;
+}
+.clienti h2{
+    font-size: 37px;
+    font-family: system-ui;
+    padding-bottom: 30px;
+}
+.clienti a{
+    font-size: 14px;
+    color: blue;
+}
+
+/***** / Più di 500.000 team utilizzano Dropbox Business *****/
